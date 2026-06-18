@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-高分电影大全</title>
+  <meta name="description" content="搜索高分电影、电影排行榜、高清电影与精选影片片库。">
+  <meta name="keywords" content="高分电影大全,高分电影,电影排行榜,高清电影,精选影片,口碑电影,电影片库">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="高分电影大全">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">
+        <strong>高分电影大全</strong>
+        <em>高清电影免费在线观看</em>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a> <a class="nav-link" href="categories.html">分类</a> <a class="nav-link" href="ranking.html">排行榜</a> <a class="nav-link" href="library/page-001.html">片库</a> <a class="nav-link active" href="search.html">搜索</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" data-mobile-menu aria-label="移动导航">
+    <a class="mobile-nav-link" href="index.html">首页</a> <a class="mobile-nav-link" href="categories.html">分类</a> <a class="mobile-nav-link" href="ranking.html">排行榜</a> <a class="mobile-nav-link" href="library/page-001.html">片库</a> <a class="mobile-nav-link active" href="search.html">搜索</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero compact">
+    <div class="container">
+      <span class="kicker">Search</span>
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、类型或标签，快速定位影片。</p>
+    </div>
+  </section>
+  <section class="content-section white-section">
+    <div class="container">
+      <form class="search-panel" data-search-form>
+        <label>
+          <span>关键词</span>
+          <input type="search" name="q" placeholder="片名、剧情、演员关键词、标签" data-search-input>
+        </label>
+        <label>
+          <span>地区</span>
+          <select name="region" data-search-region>
+            <option value="">全部地区</option>
+            <option value="guochan">国产影视</option><option value="rihan">日韩影视</option><option value="oumei">欧美影视</option><option value="yazhou">亚洲影视</option>
+          </select>
+        </label>
+        <label>
+          <span>类型</span>
+          <select name="type" data-search-type>
+            <option value="">全部类型</option>
+            <option value="movie">电影</option><option value="series">剧集</option><option value="animation">动画</option><option value="documentary">纪录</option><option value="show">综艺</option>
+          </select>
+        </label>
+        <button class="btn btn-primary" type="submit">搜索影片</button>
+      </form>
+      <div class="search-summary" data-search-summary></div>
+      <div class="movie-grid" data-search-results></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand"><span class="brand-mark small">影</span><strong>高分电影大全</strong></div>
+      <p>整理评分表现较好的电影内容，覆盖国产、日韩、欧美和亚洲等多地区影片。</p>
+    </div>
+    <div>
+      <h2>快速导航</h2>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="library/page-001.html">精选片库</a>
+        <a href="search.html">影片搜索</a>
+      </div>
+    </div>
+    <div>
+      <h2>影片分类</h2>
+      <div class="footer-links">
+        <a href="category/guochan.html">国产影视</a><a href="category/rihan.html">日韩影视</a><a href="category/oumei.html">欧美影视</a><a href="category/yazhou.html">亚洲影视</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 高分电影大全 · 高清电影免费在线观看</div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/search-data.js"></script>
+<script src="assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
